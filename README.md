@@ -1,5 +1,7 @@
 MyFoodMatrix
-MyFoodMatrix is a cross-platform mobile application (iOS, Android, web) designed to empower health-conscious users to log meals, track nutritional quality, ensure diet and allergen compliance, generate personalized recipes, and monitor wellness goals through AI-driven insights. The app offers free and premium tiers to cater to diverse user needs.
+
+
+A cross-platform mobile application (iOS, Android, web) designed to empower health-conscious users to log meals, track nutritional quality, ensure diet and allergen compliance, generate personalized recipes, and monitor wellness goals through AI-driven insights. The app offers free and premium tiers to cater to diverse user needs.
 Overview
 
 Objective: Simplify nutrition tracking and meal planning for individuals with dietary preferences (e.g., keto, vegan, gluten-free) or allergies, using photo/text/voice inputs and AI-powered analysis.
