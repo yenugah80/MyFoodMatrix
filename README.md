@@ -1,31 +1,27 @@
 MyFoodMatrix
 
+MyFoodMatrix is a cross-platform mobile application (iOS, Android, web) that empowers health-conscious users to log meals, track nutritional quality, ensure diet and allergen compliance, generate personalized recipes, and monitor wellness goals with AI-driven insights. Available in free and premium tiers, it simplifies nutrition for fitness enthusiasts, home cooks, and those with dietary restrictions.
+✨ Features
 
-A cross-platform mobile application (iOS, Android, web) designed to empower health-conscious users to log meals, track nutritional quality, ensure diet and allergen compliance, generate personalized recipes, and monitor wellness goals through AI-driven insights. The app offers free and premium tiers to cater to diverse user needs.
-Overview
+📸 Photo/Text Meal Logging: Upload food photos or text to log meals, powered by OCR (Tesseract.js) and NLP (DistilBERT).
+🍎 Smart Nutrition Score: 0–100 score (A–D) for macronutrient balance and micronutrient density.
+🥗 Diet Compatibility: Supports keto, vegan, gluten-free diets with compliance flags.
+🚨 Allergen Safety: Detects 8 FDA allergens for safe meal planning.
+📝 Recipe Generator: Personalized recipes with ingredients, instructions, and nutritional breakdowns.
+📊 Wellness Tracking: Daily progress scores with gamified badges.
 
-Objective: Simplify nutrition tracking and meal planning for individuals with dietary preferences (e.g., keto, vegan, gluten-free) or allergies, using photo/text/voice inputs and AI-powered analysis.
-Platforms: iOS, Android (React Native), Web (Tailwind CSS).
-Key Features:
-Photo/text-based meal logging with OCR and NLP.
-Smart nutrition, diet compatibility, and allergen safety scores.
-Personalized recipe generation with nutritional breakdowns.
-Daily wellness tracking with gamification.
+📑 Documentation
 
+Product Requirements Document (PRD)
+API Specification
+Architecture Diagram
 
-
-Documentation
-
-Product Requirements Document (PRD): Detailed requirements, features, and roadmap.
-API Specification: OpenAPI specs for backend endpoints.
-Architecture Diagram: High-level system design.
-
-Getting Started
+🚀 Getting Started
 Prerequisites
 
-Node.js v18+ and npm
+Node.js v18+
 React Native CLI
-Supabase account for database setup
+Supabase account
 API keys for Open Food Facts and USDA FoodData Central
 
 Installation
@@ -44,17 +40,17 @@ npm install
 
 Configure environment variables:
 Copy .env.example to .env in src/frontend and src/backend.
-Add API keys and Supabase credentials.
+Add Supabase credentials and API keys.
 
 
 Start the development server:
-Frontend: npm start (React Native).
-Backend: npm run dev (Node.js/Express).
+Frontend: npm start
+Backend: npm run dev
 
 
 
 See Frontend README and Backend README for detailed setup.
-Project Structure
+📂 Project Structure
 MyFoodMatrix/
 ├── docs/                    # Documentation
 │   ├── MyFoodMatrix_PRD.md  # Product Requirements Document
@@ -66,18 +62,19 @@ MyFoodMatrix/
 ├── .github/                 # GitHub Actions workflows
 ├── README.md                # Project overview
 ├── CONTRIBUTING.md          # Contribution guidelines
-├── LICENSE                  # License file
+├── LICENSE                  # MIT License
 ├── .gitignore               # Ignored files
 
-Contributing
-Contributions are welcome! Please read CONTRIBUTING.md for guidelines on:
+🤝 Contributing
+We welcome contributions! Please read CONTRIBUTING.md for details on:
 
 Submitting PRD updates or feature proposals.
 Writing code and tests.
-Reporting issues or bugs.
+Reporting issues via GitHub Issues.
 
-Use GitHub Issues to track feedback or suggestions, and tag them with prd, frontend, or backend.
-License
+📜 License
 This project is licensed under the MIT License.
-Contact
-For questions or support, contact the product manager at [your-email@example.com] or open an issue on GitHub.
+📬 Contact
+For questions, contact the product manager at [your-email@example.com] or open an issue on GitHub.
+
+Built with ❤️ by the MyFoodMatrix team.
